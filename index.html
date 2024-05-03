@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title> 🍄 Mario Bros</title>
+</head>
+
+<body>
+
+    <div>
+        <img src="./assets/super-mario-bros-filme-01-1h820ot0ir22h.jpg" alt="super-mario-bros" class="image-mobile">
+    </div>
+
+    <header class="upside">
+
+        <img src="./assets/icon.png" alt="face-mario">
+
+        <div class="link-audio">
+
+            <a>Home</a>
+            <a id="link-luigi" onclick="clickLink()">Nossos Serviços</a>
+            <a>Fale Conosco</a>
+
+        </div>
+
+    </header>
+
+    <div class="mask-2" onclick="maskClick()"></div>
+
+    <div class="services">
+
+        <p class="paragraph-section">
+
+            <img src="./assets/thinking_mario_and_luigi___by_leoplaysyt_ddrv90x-fullview.jpg" alt="mario-luigi-logo">
+
+            Olá!! aqui quem fala é a equipe super Mario Brothers, os melhores encanadores da região, onde houver
+            vazamento nos chegamos no momento.
+            <br>
+            <br>
+            A nossa função é realizar a instalação, manutenção e reparo de sistemas de encanamento em edificações e
+            infraestruturas.
+            <br>
+            <br>
+            Somos responsáveis e garantimos um bom funcionamento das tubulações de agua, esgoto, gás e outros fluidos,
+            assegurando o abastecimento adequado e a correta disposição dos resíduos.
+            <br>
+            <br>
+            Além disso solucionamos vazamentos, concertos de torneiras, chuveiros, sanitários e outros componentes
+            relacionados ao sistema hidráulico.
+
+        </p>
+
+    </div>
+
+    <div class="div-main">
+
+        <section class="container-main">
+
+            <img src="./assets/logo.png" class="logo-image" alt="logo-Mario-Bros">
+
+            <p>Encanadores Mario e Luigi - Resolvendo seus problemas com estilo!</p>
+
+            <p>Você já se encontrou em uma situação de emergência com encanamento ? Vazamentos inesperados, canos
+                entupidos ou torneiras que n param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!!.
+            </p>
+
+            <button onclick="buttonClick()" class="audio-button"> ENTRE EM CONTATO</button>
+
+            <audio id="audio-coin">
+
+                <source src="./assets/coin.mp3">
+
+            </audio>
+
+            <audio id="audio-mario">
+
+                <source src="./assets/sm3dl_mario_lets-a_go_1.wav">
+
+            </audio>
+
+
+        </section>
+
+        <div>
+
+            <img src="./assets/mario.png" class="mario-luigi" alt="Mario-Luigi">
+
+        </div>
+
+    </div>
+
+    <div class="video">
+
+        <video src="./assets/video.mp4" autoplay muted loop></video>
+
+        <div class="mask"></div>
+
+    </div>
+
+    <div class="wpp-img">
+
+        <a href="https://wa.me/5511971439719?text=Gostaria+da+ajuda+do+Mario+e+Luigi" target="_blank">
+
+            <img src="./assets/whatsapp-logo-png-0.png" alt="whatsapp-logo">
+
+        </a>
+
+    </div>
+
+    <form class="information" action="https://formcarry.com/s/qdBSz6EkIro" method="POST" enctype="multipart/form-data">
+
+        <input placeholder="Seu nome" type="text" name="nome">
+
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+
+        <textarea placeholder="Digite seu problema aqui" name="ajuda"></textarea>
+
+        <button type="submit">Pedir orçamento</button>
+
+        <audio id="audio-luigi">
+
+            <source src="./sm3dl_luigi_here_we_go.wav">
+
+        </audio>
+
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
